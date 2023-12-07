@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fitness Blog</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+nav {
+  background: #444;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+section {
+  padding: 20px;
+}
+footer {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Fitness Blog</h1>
+</header>
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Articles</a>
+  <a href="#">Videos</a>
+  <a href="#">About Us</a>
+  <a href="#">Contact</a>
+</nav>
+<section>
+  <h2>Latest Articles</h2>
+  <article>
+    <img src="article1.jpg" alt="Article Image">
+    <h3>Article Title 1</h3>
+    <p>Article description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <a href="#">Read More</a>
+  </article>
+  <article>
+    <img src="article2.jpg" alt="Article Image">
+    <h3>Article Title 2</h3>
+    <p>Article description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <a href="#">Read More</a>
+  </article>
+</section>
+<section>
+  <h2>Latest Videos</h2>
+  <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID"
+      frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID"
+      frameborder="0" allowfullscreen></iframe>
+  </div>
+</section>
+<section>
+  <h2>Contact Us</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    <label for="feedback">Feedback:</label>
+    <textarea name="feedback" class="form-control width-full mb-2" style="height: 120px" id="feedback"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+<footer>
+  <p>&copy; 2023 Fitness Blog. All rights reserved.</p>
+</footer>
+</body>
+</html>
